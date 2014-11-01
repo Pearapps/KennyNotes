@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6850188-5432-4C0D-BBCD-C33E08574D76</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</key>
+		<string>https://github.com/Pearapps/KPAKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</key>
+		<string>KPAKit/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Pearapps/KPAKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KPAKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

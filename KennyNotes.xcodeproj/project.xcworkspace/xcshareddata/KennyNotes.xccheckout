@@ -6,24 +6,40 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F6850188-5432-4C0D-BBCD-C33E08574D76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KennyNotes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>30DE4257332FAEF3D779E208CD63F9A4189EBF4D</key>
+		<string>https://github.com/Pearapps/KennyNotes.git</string>
 		<key>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</key>
 		<string>https://github.com/Pearapps/KPAKit.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KennyNotes.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>30DE4257332FAEF3D779E208CD63F9A4189EBF4D</key>
+		<string>../..</string>
 		<key>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</key>
-		<string>KPAKit/</string>
+		<string>../..KennyNotes/KPAKit/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Pearapps/KPAKit.git</string>
+	<string>https://github.com/Pearapps/KennyNotes.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</string>
+	<string>30DE4257332FAEF3D779E208CD63F9A4189EBF4D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>30DE4257332FAEF3D779E208CD63F9A4189EBF4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KennyNotes</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

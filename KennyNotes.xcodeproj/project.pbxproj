@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B930E2981A0569D50047F9A0 /* NSArray+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2651A0569D50047F9A0 /* NSArray+KPAKit.m */; };
+		B930E2991A0569D50047F9A0 /* NSData+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2681A0569D50047F9A0 /* NSData+KPAKit.m */; };
+		B930E29A1A0569D50047F9A0 /* NSMutableArray+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E26B1A0569D50047F9A0 /* NSMutableArray+KPAKit.m */; };
+		B930E29B1A0569D50047F9A0 /* NSNumber+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E26E1A0569D50047F9A0 /* NSNumber+KPAKit.m */; };
+		B930E29C1A0569D50047F9A0 /* UIColor+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2711A0569D50047F9A0 /* UIColor+KPAKit.m */; };
+		B930E29D1A0569D50047F9A0 /* UINavigationController+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2741A0569D50047F9A0 /* UINavigationController+KPAKit.m */; };
+		B930E29E1A0569D50047F9A0 /* UIView+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2771A0569D50047F9A0 /* UIView+KPAKit.m */; };
+		B930E29F1A0569D50047F9A0 /* KPAKitGeneralFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B930E27B1A0569D50047F9A0 /* KPAKitGeneralFunctions.c */; };
+		B930E2A01A0569D50047F9A0 /* KPAKitGeometryFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B930E27E1A0569D50047F9A0 /* KPAKitGeometryFunctions.c */; };
+		B930E2A11A0569D50047F9A0 /* KPATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2821A0569D50047F9A0 /* KPATreeNode.m */; };
+		B930E2A21A0569D50047F9A0 /* KPAPinnableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E28B1A0569D50047F9A0 /* KPAPinnableView.m */; };
+		B930E2A31A0569D50047F9A0 /* KPABorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E28E1A0569D50047F9A0 /* KPABorderedButton.m */; };
+		B930E2A41A0569D50047F9A0 /* KPAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2911A0569D50047F9A0 /* KPAView.m */; };
+		B930E2A51A0569D50047F9A0 /* KPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2941A0569D50047F9A0 /* KPAViewController.m */; };
 		B946B1121970C033009BAA72 /* KPAActionSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B946B1111970C033009BAA72 /* KPAActionSelectorView.m */; };
 		B946B1161970C38C009BAA72 /* KPAMailEnvelopeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B946B1151970C38C009BAA72 /* KPAMailEnvelopeButton.m */; };
 		B946B1181970D55D009BAA72 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B946B1171970D55D009BAA72 /* MessageUI.framework */; };
@@ -29,20 +43,6 @@
 		B9B70D4E195A0A08000FE16E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9B70D4C195A0A08000FE16E /* InfoPlist.strings */; };
 		B9B70D50195A0A08000FE16E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D4F195A0A08000FE16E /* main.m */; };
 		B9B70D54195A0A08000FE16E /* KPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D53195A0A08000FE16E /* KPAAppDelegate.m */; };
-		B9B70DA6195A0AD4000FE16E /* NSArray+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D76195A0AD4000FE16E /* NSArray+KPAKit.m */; };
-		B9B70DA7195A0AD4000FE16E /* NSData+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D79195A0AD4000FE16E /* NSData+KPAKit.m */; };
-		B9B70DA8195A0AD4000FE16E /* NSMutableArray+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D7C195A0AD4000FE16E /* NSMutableArray+KPAKit.m */; };
-		B9B70DA9195A0AD4000FE16E /* NSNumber+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D7F195A0AD4000FE16E /* NSNumber+KPAKit.m */; };
-		B9B70DAA195A0AD4000FE16E /* UIColor+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D82195A0AD4000FE16E /* UIColor+KPAKit.m */; };
-		B9B70DAB195A0AD4000FE16E /* UINavigationController+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D85195A0AD4000FE16E /* UINavigationController+KPAKit.m */; };
-		B9B70DAC195A0AD4000FE16E /* UIView+KPAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D88195A0AD4000FE16E /* UIView+KPAKit.m */; };
-		B9B70DAD195A0AD4000FE16E /* KPAKitGeneralFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D8C195A0AD4000FE16E /* KPAKitGeneralFunctions.c */; };
-		B9B70DAE195A0AD4000FE16E /* KPAKitGeometryFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D8F195A0AD4000FE16E /* KPAKitGeometryFunctions.c */; };
-		B9B70DAF195A0AD4000FE16E /* KPATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D93195A0AD4000FE16E /* KPATreeNode.m */; };
-		B9B70DB0195A0AD4000FE16E /* KPAPinnableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D9C195A0AD4000FE16E /* KPAPinnableView.m */; };
-		B9B70DB1195A0AD4000FE16E /* KPABorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70D9F195A0AD4000FE16E /* KPABorderedButton.m */; };
-		B9B70DB2195A0AD4000FE16E /* KPAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70DA2195A0AD4000FE16E /* KPAView.m */; };
-		B9B70DB3195A0AD4000FE16E /* KPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70DA5195A0AD4000FE16E /* KPAViewController.m */; };
 		B9B70DC0195A0AF0000FE16E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70DB6195A0AF0000FE16E /* FMDatabase.m */; };
 		B9B70DC1195A0AF0000FE16E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70DB8195A0AF0000FE16E /* FMDatabaseAdditions.m */; };
 		B9B70DC2195A0AF0000FE16E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B70DBA195A0AF0000FE16E /* FMDatabasePool.m */; };
@@ -76,6 +76,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B930E2641A0569D50047F9A0 /* NSArray+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KPAKit.h"; sourceTree = "<group>"; };
+		B930E2651A0569D50047F9A0 /* NSArray+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KPAKit.m"; sourceTree = "<group>"; };
+		B930E2671A0569D50047F9A0 /* NSData+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KPAKit.h"; sourceTree = "<group>"; };
+		B930E2681A0569D50047F9A0 /* NSData+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KPAKit.m"; sourceTree = "<group>"; };
+		B930E26A1A0569D50047F9A0 /* NSMutableArray+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+KPAKit.h"; sourceTree = "<group>"; };
+		B930E26B1A0569D50047F9A0 /* NSMutableArray+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+KPAKit.m"; sourceTree = "<group>"; };
+		B930E26D1A0569D50047F9A0 /* NSNumber+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+KPAKit.h"; sourceTree = "<group>"; };
+		B930E26E1A0569D50047F9A0 /* NSNumber+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+KPAKit.m"; sourceTree = "<group>"; };
+		B930E2701A0569D50047F9A0 /* UIColor+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KPAKit.h"; sourceTree = "<group>"; };
+		B930E2711A0569D50047F9A0 /* UIColor+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KPAKit.m"; sourceTree = "<group>"; };
+		B930E2731A0569D50047F9A0 /* UINavigationController+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KPAKit.h"; sourceTree = "<group>"; };
+		B930E2741A0569D50047F9A0 /* UINavigationController+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KPAKit.m"; sourceTree = "<group>"; };
+		B930E2761A0569D50047F9A0 /* UIView+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KPAKit.h"; sourceTree = "<group>"; };
+		B930E2771A0569D50047F9A0 /* UIView+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KPAKit.m"; sourceTree = "<group>"; };
+		B930E27B1A0569D50047F9A0 /* KPAKitGeneralFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KPAKitGeneralFunctions.c; sourceTree = "<group>"; };
+		B930E27C1A0569D50047F9A0 /* KPAKitGeneralFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitGeneralFunctions.h; sourceTree = "<group>"; };
+		B930E27E1A0569D50047F9A0 /* KPAKitGeometryFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KPAKitGeometryFunctions.c; sourceTree = "<group>"; };
+		B930E27F1A0569D50047F9A0 /* KPAKitGeometryFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitGeometryFunctions.h; sourceTree = "<group>"; };
+		B930E2811A0569D50047F9A0 /* KPATreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPATreeNode.h; sourceTree = "<group>"; };
+		B930E2821A0569D50047F9A0 /* KPATreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPATreeNode.m; sourceTree = "<group>"; };
+		B930E2831A0569D50047F9A0 /* KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKit.h; sourceTree = "<group>"; };
+		B930E2841A0569D50047F9A0 /* KPAKitDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitDefinitions.h; sourceTree = "<group>"; };
+		B930E2861A0569D50047F9A0 /* KPAKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPAKit-Prefix.pch"; sourceTree = "<group>"; };
+		B930E28A1A0569D50047F9A0 /* KPAPinnableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAPinnableView.h; sourceTree = "<group>"; };
+		B930E28B1A0569D50047F9A0 /* KPAPinnableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAPinnableView.m; sourceTree = "<group>"; };
+		B930E28D1A0569D50047F9A0 /* KPABorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPABorderedButton.h; sourceTree = "<group>"; };
+		B930E28E1A0569D50047F9A0 /* KPABorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPABorderedButton.m; sourceTree = "<group>"; };
+		B930E2901A0569D50047F9A0 /* KPAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAView.h; sourceTree = "<group>"; };
+		B930E2911A0569D50047F9A0 /* KPAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAView.m; sourceTree = "<group>"; };
+		B930E2931A0569D50047F9A0 /* KPAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAViewController.h; sourceTree = "<group>"; };
+		B930E2941A0569D50047F9A0 /* KPAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAViewController.m; sourceTree = "<group>"; };
 		B946B1101970C033009BAA72 /* KPAActionSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAActionSelectorView.h; sourceTree = "<group>"; };
 		B946B1111970C033009BAA72 /* KPAActionSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAActionSelectorView.m; sourceTree = "<group>"; };
 		B946B1141970C38C009BAA72 /* KPAMailEnvelopeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAMailEnvelopeButton.h; sourceTree = "<group>"; };
@@ -116,37 +147,6 @@
 		B9B70D52195A0A08000FE16E /* KPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAAppDelegate.h; sourceTree = "<group>"; };
 		B9B70D53195A0A08000FE16E /* KPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAAppDelegate.m; sourceTree = "<group>"; };
 		B9B70D5C195A0A08000FE16E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B9B70D75195A0AD4000FE16E /* NSArray+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D76195A0AD4000FE16E /* NSArray+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D78195A0AD4000FE16E /* NSData+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D79195A0AD4000FE16E /* NSData+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D7B195A0AD4000FE16E /* NSMutableArray+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D7C195A0AD4000FE16E /* NSMutableArray+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D7E195A0AD4000FE16E /* NSNumber+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D7F195A0AD4000FE16E /* NSNumber+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D81195A0AD4000FE16E /* UIColor+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D82195A0AD4000FE16E /* UIColor+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D84195A0AD4000FE16E /* UINavigationController+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D85195A0AD4000FE16E /* UINavigationController+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D87195A0AD4000FE16E /* UIView+KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KPAKit.h"; sourceTree = "<group>"; };
-		B9B70D88195A0AD4000FE16E /* UIView+KPAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KPAKit.m"; sourceTree = "<group>"; };
-		B9B70D8C195A0AD4000FE16E /* KPAKitGeneralFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KPAKitGeneralFunctions.c; sourceTree = "<group>"; };
-		B9B70D8D195A0AD4000FE16E /* KPAKitGeneralFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitGeneralFunctions.h; sourceTree = "<group>"; };
-		B9B70D8F195A0AD4000FE16E /* KPAKitGeometryFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KPAKitGeometryFunctions.c; sourceTree = "<group>"; };
-		B9B70D90195A0AD4000FE16E /* KPAKitGeometryFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitGeometryFunctions.h; sourceTree = "<group>"; };
-		B9B70D92195A0AD4000FE16E /* KPATreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPATreeNode.h; sourceTree = "<group>"; };
-		B9B70D93195A0AD4000FE16E /* KPATreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPATreeNode.m; sourceTree = "<group>"; };
-		B9B70D94195A0AD4000FE16E /* KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKit.h; sourceTree = "<group>"; };
-		B9B70D95195A0AD4000FE16E /* KPAKitDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitDefinitions.h; sourceTree = "<group>"; };
-		B9B70D97195A0AD4000FE16E /* KPAKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPAKit-Prefix.pch"; sourceTree = "<group>"; };
-		B9B70D9B195A0AD4000FE16E /* KPAPinnableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAPinnableView.h; sourceTree = "<group>"; };
-		B9B70D9C195A0AD4000FE16E /* KPAPinnableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAPinnableView.m; sourceTree = "<group>"; };
-		B9B70D9E195A0AD4000FE16E /* KPABorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPABorderedButton.h; sourceTree = "<group>"; };
-		B9B70D9F195A0AD4000FE16E /* KPABorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPABorderedButton.m; sourceTree = "<group>"; };
-		B9B70DA1195A0AD4000FE16E /* KPAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAView.h; sourceTree = "<group>"; };
-		B9B70DA2195A0AD4000FE16E /* KPAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAView.m; sourceTree = "<group>"; };
-		B9B70DA4195A0AD4000FE16E /* KPAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAViewController.h; sourceTree = "<group>"; };
-		B9B70DA5195A0AD4000FE16E /* KPAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAViewController.m; sourceTree = "<group>"; };
 		B9B70DB5195A0AF0000FE16E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		B9B70DB6195A0AF0000FE16E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		B9B70DB7195A0AF0000FE16E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -223,6 +223,212 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B930E25F1A0569D50047F9A0 /* KPAKit */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2611A0569D50047F9A0 /* KPAKit */,
+			);
+			path = KPAKit;
+			sourceTree = "<group>";
+		};
+		B930E2611A0569D50047F9A0 /* KPAKit */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2621A0569D50047F9A0 /* Categories */,
+				B930E2781A0569D50047F9A0 /* General */,
+				B930E2831A0569D50047F9A0 /* KPAKit.h */,
+				B930E2841A0569D50047F9A0 /* KPAKitDefinitions.h */,
+				B930E2851A0569D50047F9A0 /* Supporting Files */,
+				B930E2871A0569D50047F9A0 /* UI */,
+			);
+			path = KPAKit;
+			sourceTree = "<group>";
+		};
+		B930E2621A0569D50047F9A0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2631A0569D50047F9A0 /* NSArray */,
+				B930E2661A0569D50047F9A0 /* NSData */,
+				B930E2691A0569D50047F9A0 /* NSMutableArray */,
+				B930E26C1A0569D50047F9A0 /* NSNumber */,
+				B930E26F1A0569D50047F9A0 /* UIColor */,
+				B930E2721A0569D50047F9A0 /* UINavigationController */,
+				B930E2751A0569D50047F9A0 /* UIView */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B930E2631A0569D50047F9A0 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2641A0569D50047F9A0 /* NSArray+KPAKit.h */,
+				B930E2651A0569D50047F9A0 /* NSArray+KPAKit.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		B930E2661A0569D50047F9A0 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2671A0569D50047F9A0 /* NSData+KPAKit.h */,
+				B930E2681A0569D50047F9A0 /* NSData+KPAKit.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		B930E2691A0569D50047F9A0 /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				B930E26A1A0569D50047F9A0 /* NSMutableArray+KPAKit.h */,
+				B930E26B1A0569D50047F9A0 /* NSMutableArray+KPAKit.m */,
+			);
+			path = NSMutableArray;
+			sourceTree = "<group>";
+		};
+		B930E26C1A0569D50047F9A0 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				B930E26D1A0569D50047F9A0 /* NSNumber+KPAKit.h */,
+				B930E26E1A0569D50047F9A0 /* NSNumber+KPAKit.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		B930E26F1A0569D50047F9A0 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2701A0569D50047F9A0 /* UIColor+KPAKit.h */,
+				B930E2711A0569D50047F9A0 /* UIColor+KPAKit.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		B930E2721A0569D50047F9A0 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2731A0569D50047F9A0 /* UINavigationController+KPAKit.h */,
+				B930E2741A0569D50047F9A0 /* UINavigationController+KPAKit.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		B930E2751A0569D50047F9A0 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2761A0569D50047F9A0 /* UIView+KPAKit.h */,
+				B930E2771A0569D50047F9A0 /* UIView+KPAKit.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B930E2781A0569D50047F9A0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2791A0569D50047F9A0 /* Functions */,
+				B930E2801A0569D50047F9A0 /* KPATreeNode */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		B930E2791A0569D50047F9A0 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				B930E27A1A0569D50047F9A0 /* KPAKitGeneralFunctions */,
+				B930E27D1A0569D50047F9A0 /* KPAKitGeometryFunctions */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		B930E27A1A0569D50047F9A0 /* KPAKitGeneralFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				B930E27B1A0569D50047F9A0 /* KPAKitGeneralFunctions.c */,
+				B930E27C1A0569D50047F9A0 /* KPAKitGeneralFunctions.h */,
+			);
+			path = KPAKitGeneralFunctions;
+			sourceTree = "<group>";
+		};
+		B930E27D1A0569D50047F9A0 /* KPAKitGeometryFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				B930E27E1A0569D50047F9A0 /* KPAKitGeometryFunctions.c */,
+				B930E27F1A0569D50047F9A0 /* KPAKitGeometryFunctions.h */,
+			);
+			path = KPAKitGeometryFunctions;
+			sourceTree = "<group>";
+		};
+		B930E2801A0569D50047F9A0 /* KPATreeNode */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2811A0569D50047F9A0 /* KPATreeNode.h */,
+				B930E2821A0569D50047F9A0 /* KPATreeNode.m */,
+			);
+			path = KPATreeNode;
+			sourceTree = "<group>";
+		};
+		B930E2851A0569D50047F9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2861A0569D50047F9A0 /* KPAKit-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B930E2871A0569D50047F9A0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2881A0569D50047F9A0 /* Beta */,
+				B930E28C1A0569D50047F9A0 /* KPABorderedButton */,
+				B930E28F1A0569D50047F9A0 /* KPAView */,
+				B930E2921A0569D50047F9A0 /* KPAViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B930E2881A0569D50047F9A0 /* Beta */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2891A0569D50047F9A0 /* KPAPinnableView */,
+			);
+			path = Beta;
+			sourceTree = "<group>";
+		};
+		B930E2891A0569D50047F9A0 /* KPAPinnableView */ = {
+			isa = PBXGroup;
+			children = (
+				B930E28A1A0569D50047F9A0 /* KPAPinnableView.h */,
+				B930E28B1A0569D50047F9A0 /* KPAPinnableView.m */,
+			);
+			path = KPAPinnableView;
+			sourceTree = "<group>";
+		};
+		B930E28C1A0569D50047F9A0 /* KPABorderedButton */ = {
+			isa = PBXGroup;
+			children = (
+				B930E28D1A0569D50047F9A0 /* KPABorderedButton.h */,
+				B930E28E1A0569D50047F9A0 /* KPABorderedButton.m */,
+			);
+			path = KPABorderedButton;
+			sourceTree = "<group>";
+		};
+		B930E28F1A0569D50047F9A0 /* KPAView */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2901A0569D50047F9A0 /* KPAView.h */,
+				B930E2911A0569D50047F9A0 /* KPAView.m */,
+			);
+			path = KPAView;
+			sourceTree = "<group>";
+		};
+		B930E2921A0569D50047F9A0 /* KPAViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B930E2931A0569D50047F9A0 /* KPAViewController.h */,
+				B930E2941A0569D50047F9A0 /* KPAViewController.m */,
+			);
+			path = KPAViewController;
+			sourceTree = "<group>";
+		};
 		B946B1131970C03A009BAA72 /* KPAActionSelectorView */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,12 +566,12 @@
 		B9B70D49195A0A08000FE16E /* KennyNotes */ = {
 			isa = PBXGroup;
 			children = (
+				B930E25F1A0569D50047F9A0 /* KPAKit */,
 				B9D2E89C195CC06900CFE082 /* MSCellAccessory */,
 				B9D2E89B195CC04C00CFE082 /* BVReorderTableView */,
 				B9B70DE7195A8D4F000FE16E /* MSCMoreOptionTableViewCell */,
 				B9B70DC7195A0B63000FE16E /* FCModel */,
 				B9B70DB4195A0AF0000FE16E /* fmdb */,
-				B9B70D72195A0AD4000FE16E /* KPAKit */,
 				B9B70D52195A0A08000FE16E /* KPAAppDelegate.h */,
 				B9B70D53195A0A08000FE16E /* KPAAppDelegate.m */,
 				B9B4DC7E1977A948007D145A /* KPAPagedView */,
@@ -396,205 +602,6 @@
 				B9B70D51195A0A08000FE16E /* KennyNotes-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B9B70D72195A0AD4000FE16E /* KPAKit */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D73195A0AD4000FE16E /* Categories */,
-				B9B70D89195A0AD4000FE16E /* General */,
-				B9B70D94195A0AD4000FE16E /* KPAKit.h */,
-				B9B70D95195A0AD4000FE16E /* KPAKitDefinitions.h */,
-				B9B70D96195A0AD4000FE16E /* Supporting Files */,
-				B9B70D98195A0AD4000FE16E /* UI */,
-			);
-			name = KPAKit;
-			path = ../../KPAKit/KPAKit;
-			sourceTree = "<group>";
-		};
-		B9B70D73195A0AD4000FE16E /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D74195A0AD4000FE16E /* NSArray */,
-				B9B70D77195A0AD4000FE16E /* NSData */,
-				B9B70D7A195A0AD4000FE16E /* NSMutableArray */,
-				B9B70D7D195A0AD4000FE16E /* NSNumber */,
-				B9B70D80195A0AD4000FE16E /* UIColor */,
-				B9B70D83195A0AD4000FE16E /* UINavigationController */,
-				B9B70D86195A0AD4000FE16E /* UIView */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		B9B70D74195A0AD4000FE16E /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D75195A0AD4000FE16E /* NSArray+KPAKit.h */,
-				B9B70D76195A0AD4000FE16E /* NSArray+KPAKit.m */,
-			);
-			path = NSArray;
-			sourceTree = "<group>";
-		};
-		B9B70D77195A0AD4000FE16E /* NSData */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D78195A0AD4000FE16E /* NSData+KPAKit.h */,
-				B9B70D79195A0AD4000FE16E /* NSData+KPAKit.m */,
-			);
-			path = NSData;
-			sourceTree = "<group>";
-		};
-		B9B70D7A195A0AD4000FE16E /* NSMutableArray */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D7B195A0AD4000FE16E /* NSMutableArray+KPAKit.h */,
-				B9B70D7C195A0AD4000FE16E /* NSMutableArray+KPAKit.m */,
-			);
-			path = NSMutableArray;
-			sourceTree = "<group>";
-		};
-		B9B70D7D195A0AD4000FE16E /* NSNumber */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D7E195A0AD4000FE16E /* NSNumber+KPAKit.h */,
-				B9B70D7F195A0AD4000FE16E /* NSNumber+KPAKit.m */,
-			);
-			path = NSNumber;
-			sourceTree = "<group>";
-		};
-		B9B70D80195A0AD4000FE16E /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D81195A0AD4000FE16E /* UIColor+KPAKit.h */,
-				B9B70D82195A0AD4000FE16E /* UIColor+KPAKit.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		B9B70D83195A0AD4000FE16E /* UINavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D84195A0AD4000FE16E /* UINavigationController+KPAKit.h */,
-				B9B70D85195A0AD4000FE16E /* UINavigationController+KPAKit.m */,
-			);
-			path = UINavigationController;
-			sourceTree = "<group>";
-		};
-		B9B70D86195A0AD4000FE16E /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D87195A0AD4000FE16E /* UIView+KPAKit.h */,
-				B9B70D88195A0AD4000FE16E /* UIView+KPAKit.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		B9B70D89195A0AD4000FE16E /* General */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D8A195A0AD4000FE16E /* Functions */,
-				B9B70D91195A0AD4000FE16E /* KPATreeNode */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		B9B70D8A195A0AD4000FE16E /* Functions */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D8B195A0AD4000FE16E /* KPAKitGeneralFunctions */,
-				B9B70D8E195A0AD4000FE16E /* KPAKitGeometryFunctions */,
-			);
-			path = Functions;
-			sourceTree = "<group>";
-		};
-		B9B70D8B195A0AD4000FE16E /* KPAKitGeneralFunctions */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D8C195A0AD4000FE16E /* KPAKitGeneralFunctions.c */,
-				B9B70D8D195A0AD4000FE16E /* KPAKitGeneralFunctions.h */,
-			);
-			path = KPAKitGeneralFunctions;
-			sourceTree = "<group>";
-		};
-		B9B70D8E195A0AD4000FE16E /* KPAKitGeometryFunctions */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D8F195A0AD4000FE16E /* KPAKitGeometryFunctions.c */,
-				B9B70D90195A0AD4000FE16E /* KPAKitGeometryFunctions.h */,
-			);
-			path = KPAKitGeometryFunctions;
-			sourceTree = "<group>";
-		};
-		B9B70D91195A0AD4000FE16E /* KPATreeNode */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D92195A0AD4000FE16E /* KPATreeNode.h */,
-				B9B70D93195A0AD4000FE16E /* KPATreeNode.m */,
-			);
-			path = KPATreeNode;
-			sourceTree = "<group>";
-		};
-		B9B70D96195A0AD4000FE16E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D97195A0AD4000FE16E /* KPAKit-Prefix.pch */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B9B70D98195A0AD4000FE16E /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D99195A0AD4000FE16E /* Beta */,
-				B9B70D9D195A0AD4000FE16E /* KPABorderedButton */,
-				B9B70DA0195A0AD4000FE16E /* KPAView */,
-				B9B70DA3195A0AD4000FE16E /* KPAViewController */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		B9B70D99195A0AD4000FE16E /* Beta */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D9A195A0AD4000FE16E /* KPAPinnableView */,
-			);
-			path = Beta;
-			sourceTree = "<group>";
-		};
-		B9B70D9A195A0AD4000FE16E /* KPAPinnableView */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D9B195A0AD4000FE16E /* KPAPinnableView.h */,
-				B9B70D9C195A0AD4000FE16E /* KPAPinnableView.m */,
-			);
-			path = KPAPinnableView;
-			sourceTree = "<group>";
-		};
-		B9B70D9D195A0AD4000FE16E /* KPABorderedButton */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70D9E195A0AD4000FE16E /* KPABorderedButton.h */,
-				B9B70D9F195A0AD4000FE16E /* KPABorderedButton.m */,
-			);
-			path = KPABorderedButton;
-			sourceTree = "<group>";
-		};
-		B9B70DA0195A0AD4000FE16E /* KPAView */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70DA1195A0AD4000FE16E /* KPAView.h */,
-				B9B70DA2195A0AD4000FE16E /* KPAView.m */,
-			);
-			path = KPAView;
-			sourceTree = "<group>";
-		};
-		B9B70DA3195A0AD4000FE16E /* KPAViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B9B70DA4195A0AD4000FE16E /* KPAViewController.h */,
-				B9B70DA5195A0AD4000FE16E /* KPAViewController.m */,
-			);
-			path = KPAViewController;
 			sourceTree = "<group>";
 		};
 		B9B70DB4195A0AF0000FE16E /* fmdb */ = {
@@ -859,55 +866,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B70DA7195A0AD4000FE16E /* NSData+KPAKit.m in Sources */,
 				B9B4DC77197798AA007D145A /* KPAPagedView.m in Sources */,
 				B9D8E805197FFCB0002959F7 /* KPATagButton.m in Sources */,
+				B930E2A51A0569D50047F9A0 /* KPAViewController.m in Sources */,
 				B9D8E80E19857BC4002959F7 /* KPATagCacheController.m in Sources */,
+				B930E29F1A0569D50047F9A0 /* KPAKitGeneralFunctions.c in Sources */,
 				B9B70DE3195A4D13000FE16E /* MSCMoreOptionTableViewCell.m in Sources */,
 				B946B12919737D1F009BAA72 /* KPABorderedAdditionButton.m in Sources */,
-				B9B70DB0195A0AD4000FE16E /* KPAPinnableView.m in Sources */,
 				B9B70DC2195A0AF0000FE16E /* FMDatabasePool.m in Sources */,
-				B9B70DAC195A0AD4000FE16E /* UIView+KPAKit.m in Sources */,
-				B9B70DAD195A0AD4000FE16E /* KPAKitGeneralFunctions.c in Sources */,
 				B9B70DC3195A0AF0000FE16E /* FMDatabaseQueue.m in Sources */,
 				B9B70DC0195A0AF0000FE16E /* FMDatabase.m in Sources */,
+				B930E2A41A0569D50047F9A0 /* KPAView.m in Sources */,
 				B9B70DC1195A0AF0000FE16E /* FMDatabaseAdditions.m in Sources */,
 				B9B4DC7319776472007D145A /* KPAImageDisplayingViewController.m in Sources */,
-				B9B70DA9195A0AD4000FE16E /* NSNumber+KPAKit.m in Sources */,
+				B930E2A31A0569D50047F9A0 /* KPABorderedButton.m in Sources */,
 				B9B70DC4195A0AF0000FE16E /* FMResultSet.m in Sources */,
+				B930E29D1A0569D50047F9A0 /* UINavigationController+KPAKit.m in Sources */,
 				B946B12519730873009BAA72 /* KPANoteAdditionalButtonView.m in Sources */,
 				B9B4DC6A19763F37007D145A /* UIImage+KPAAdditions.m in Sources */,
 				B9B70DCE195A0B63000FE16E /* FCModel.m in Sources */,
 				B9B70DDD195A12C3000FE16E /* KPANoteViewController.m in Sources */,
 				B9B70DCF195A0B63000FE16E /* FCModelCachedObject.m in Sources */,
-				B9B70DA8195A0AD4000FE16E /* NSMutableArray+KPAKit.m in Sources */,
 				B9D2E8A2195CC06900CFE082 /* UIView+AccessViewController.m in Sources */,
 				B9B70DEA195A8D74000FE16E /* BVReorderTableView.m in Sources */,
 				B9D2E8AB195DF60100CFE082 /* KPATag.m in Sources */,
 				B9B70DD0195A0B63000FE16E /* FCModelDatabaseQueue.m in Sources */,
-				B9B70DB2195A0AD4000FE16E /* KPAView.m in Sources */,
 				B9D2E897195B7F8900CFE082 /* KPAMainListViewController.m in Sources */,
 				B946B11F19724471009BAA72 /* KPANoteImageDisplayView.m in Sources */,
-				B9B70DAB195A0AD4000FE16E /* UINavigationController+KPAKit.m in Sources */,
 				B9B4DC6F19764D6C007D145A /* KPANoteImage.m in Sources */,
-				B9B70DAF195A0AD4000FE16E /* KPATreeNode.m in Sources */,
-				B9B70DB3195A0AD4000FE16E /* KPAViewController.m in Sources */,
 				B946B1161970C38C009BAA72 /* KPAMailEnvelopeButton.m in Sources */,
 				B9B70DD8195A0EA6000FE16E /* KPANote.m in Sources */,
+				B930E2A11A0569D50047F9A0 /* KPATreeNode.m in Sources */,
 				B9B70DE6195A5E9C000FE16E /* KPANotesController.m in Sources */,
-				B9B70DAA195A0AD4000FE16E /* UIColor+KPAKit.m in Sources */,
 				B9B4DC67197632A6007D145A /* KPASharedImageController.m in Sources */,
+				B930E29A1A0569D50047F9A0 /* NSMutableArray+KPAKit.m in Sources */,
+				B930E29B1A0569D50047F9A0 /* NSNumber+KPAKit.m in Sources */,
 				B946B11C1971BE90009BAA72 /* KPAHighlightableActionSelectorButton.m in Sources */,
+				B930E2981A0569D50047F9A0 /* NSArray+KPAKit.m in Sources */,
 				B9B70D50195A0A08000FE16E /* main.m in Sources */,
-				B9B70DAE195A0AD4000FE16E /* KPAKitGeometryFunctions.c in Sources */,
 				B9B4DC7D1977A941007D145A /* ImageScrollView.m in Sources */,
-				B9B70DB1195A0AD4000FE16E /* KPABorderedButton.m in Sources */,
+				B930E29E1A0569D50047F9A0 /* UIView+KPAKit.m in Sources */,
 				B9D2E8B5195E6BD800CFE082 /* KPASettingsViewController.m in Sources */,
+				B930E2A01A0569D50047F9A0 /* KPAKitGeometryFunctions.c in Sources */,
 				B9D8E80A1981E0ED002959F7 /* KPACustomNoteTextView.m in Sources */,
+				B930E2A21A0569D50047F9A0 /* KPAPinnableView.m in Sources */,
+				B930E2991A0569D50047F9A0 /* NSData+KPAKit.m in Sources */,
 				B9B4DC7C1977A941007D145A /* PhotoViewController.m in Sources */,
 				B9D2E8A1195CC06900CFE082 /* MSCellAccessory.m in Sources */,
 				B9B70DD3195A0C83000FE16E /* KPAListViewController.m in Sources */,
-				B9B70DA6195A0AD4000FE16E /* NSArray+KPAKit.m in Sources */,
+				B930E29C1A0569D50047F9A0 /* UIColor+KPAKit.m in Sources */,
 				B9D8E801197FF9BE002959F7 /* KPATagContainerView.m in Sources */,
 				B9B70D54195A0A08000FE16E /* KPAAppDelegate.m in Sources */,
 				B9F7D670197C750200B839A2 /* KPATagController.m in Sources */,

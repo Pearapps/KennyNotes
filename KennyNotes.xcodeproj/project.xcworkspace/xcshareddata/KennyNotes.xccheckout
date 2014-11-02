@@ -22,7 +22,7 @@
 		<key>30DE4257332FAEF3D779E208CD63F9A4189EBF4D</key>
 		<string>../..</string>
 		<key>C04D5BAAF1457156C4D8E87A38494C16B0575BC0</key>
-		<string>../..KennyNotes/KPAKit/</string>
+		<string>../..KennyNotes/KPAKit</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Pearapps/KennyNotes.git</string>

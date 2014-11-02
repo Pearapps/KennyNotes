@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, KPATheme)  {
-    KPAThemeLight,
-    KPAThemeDark
+    KPAThemeDark,
+    KPAThemeLight
 };
 
 #define KPADidSetThemeNotificationName @"KPADidSetTheme"

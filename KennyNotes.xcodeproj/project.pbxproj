@@ -29,6 +29,7 @@
 		B946B12219730455009BAA72 /* pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B946B12119730455009BAA72 /* pic@2x.png */; };
 		B946B12519730873009BAA72 /* KPANoteAdditionalButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B946B12419730873009BAA72 /* KPANoteAdditionalButtonView.m */; };
 		B946B12919737D1F009BAA72 /* KPABorderedAdditionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B946B12819737D1F009BAA72 /* KPABorderedAdditionButton.m */; };
+		B995BA401A34B13900AA33B9 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B995BA3F1A34B13900AA33B9 /* Launch Screen.xib */; };
 		B9B4DC67197632A6007D145A /* KPASharedImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B4DC66197632A6007D145A /* KPASharedImageController.m */; };
 		B9B4DC6A19763F37007D145A /* UIImage+KPAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B4DC6919763F37007D145A /* UIImage+KPAAdditions.m */; };
 		B9B4DC6F19764D6C007D145A /* KPANoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B4DC6E19764D6C007D145A /* KPANoteImage.m */; };
@@ -121,6 +122,7 @@
 		B946B12419730873009BAA72 /* KPANoteAdditionalButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPANoteAdditionalButtonView.m; sourceTree = "<group>"; };
 		B946B12719737D1F009BAA72 /* KPABorderedAdditionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPABorderedAdditionButton.h; sourceTree = "<group>"; };
 		B946B12819737D1F009BAA72 /* KPABorderedAdditionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPABorderedAdditionButton.m; sourceTree = "<group>"; };
+		B995BA3F1A34B13900AA33B9 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		B9B4DC65197632A6007D145A /* KPASharedImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPASharedImageController.h; sourceTree = "<group>"; };
 		B9B4DC66197632A6007D145A /* KPASharedImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPASharedImageController.m; sourceTree = "<group>"; };
 		B9B4DC6819763F37007D145A /* UIImage+KPAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KPAAdditions.h"; sourceTree = "<group>"; };
@@ -584,6 +586,7 @@
 				B9B4DC7019764D76007D145A /* KPANoteImage */,
 				B9B70DDF195A4A7F000FE16E /* KPANote */,
 				B9B70D4A195A0A08000FE16E /* Supporting Files */,
+				B995BA3F1A34B13900AA33B9 /* Launch Screen.xib */,
 			);
 			path = KennyNotes;
 			sourceTree = "<group>";
@@ -855,6 +858,7 @@
 				B9D2E89A195B90C700CFE082 /* icon-120.png in Resources */,
 				B9B70D4E195A0A08000FE16E /* InfoPlist.strings in Resources */,
 				B9B70DEF195B73DF000FE16E /* settings@2x.png in Resources */,
+				B995BA401A34B13900AA33B9 /* Launch Screen.xib in Resources */,
 				B9B70DD5195A0D16000FE16E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

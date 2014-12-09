@@ -92,10 +92,6 @@
     ((BVReorderTableView *)self.tableView).canReorder = !isArchived;
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
     [self.notesController startSearch];
     
@@ -104,7 +100,7 @@
     tap.delegate = self;
     [self.tableView addGestureRecognizer:tap];
     ((BVReorderTableView *)self.tableView).canReorder = NO;
-    
+
     // HACK
     // https://gist.github.com/hebertialmeida/7548793
     for (UIView *subView in searchBar.subviews) {
@@ -133,6 +129,7 @@
     [self.searchBar resignFirstResponder];
     [gesRec removeTarget:self action:@selector(didTap:)];
     [self.tableView removeGestureRecognizer:gesRec];
+    gesRec.delegate = nil;
 }
 
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {

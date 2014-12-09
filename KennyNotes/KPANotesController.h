@@ -37,7 +37,7 @@
 - (void)startSearch;
 - (void)stopSearch;
 
-@property (nonatomic, assign) id <KPANotesControllerDelegate> delegate;
+@property (nonatomic, weak) id <KPANotesControllerDelegate> delegate;
 @property (nonatomic, readonly) BOOL isDisplayingArchived;
 @property (nonatomic, strong) KPATag *associatedTag;
 

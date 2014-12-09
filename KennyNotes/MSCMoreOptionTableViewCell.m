@@ -45,7 +45,7 @@
 }
 
 - (void)dealloc {
-    [self.cellScrollView.layer removeObserver:self forKeyPath:@"sublayers" context:nil];
+    [[self observingLayer] removeObserver:self forKeyPath:@"sublayers" context:nil];
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -249,15 +249,19 @@
      * There is no UIScrollView in the hierarchy anymore. So we need to observe
      * the cell's sublayers.
      */
-    for (CALayer *layer in self.layer.sublayers) {
+   
+    [[self observingLayer] addObserver:self forKeyPath:@"sublayers" options:NSKeyValueObservingOptionNew context:nil];
+}
+
+- (CALayer *)observingLayer {
+      for (CALayer *layer in self.layer.sublayers) {
         if ([layer.delegate isKindOfClass:[UIScrollView class]]) {
             _cellScrollView = (UIScrollView *)layer.delegate;
             break;
         }
     }
     
-    CALayer *layerToObserver = _cellScrollView.layer ?: self.layer;
-    [layerToObserver addObserver:self forKeyPath:@"sublayers" options:NSKeyValueObservingOptionNew context:nil];
+    return _cellScrollView.layer ?: self.layer;
 }
 
 - (NSString *)moreOptionButtonTitle {

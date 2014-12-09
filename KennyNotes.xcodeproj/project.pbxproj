@@ -17,7 +17,6 @@
 		B930E29F1A0569D50047F9A0 /* KPAKitGeneralFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B930E27B1A0569D50047F9A0 /* KPAKitGeneralFunctions.c */; };
 		B930E2A01A0569D50047F9A0 /* KPAKitGeometryFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B930E27E1A0569D50047F9A0 /* KPAKitGeometryFunctions.c */; };
 		B930E2A11A0569D50047F9A0 /* KPATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2821A0569D50047F9A0 /* KPATreeNode.m */; };
-		B930E2A21A0569D50047F9A0 /* KPAPinnableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E28B1A0569D50047F9A0 /* KPAPinnableView.m */; };
 		B930E2A31A0569D50047F9A0 /* KPABorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E28E1A0569D50047F9A0 /* KPABorderedButton.m */; };
 		B930E2A41A0569D50047F9A0 /* KPAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2911A0569D50047F9A0 /* KPAView.m */; };
 		B930E2A51A0569D50047F9A0 /* KPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E2941A0569D50047F9A0 /* KPAViewController.m */; };
@@ -100,8 +99,6 @@
 		B930E2831A0569D50047F9A0 /* KPAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKit.h; sourceTree = "<group>"; };
 		B930E2841A0569D50047F9A0 /* KPAKitDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAKitDefinitions.h; sourceTree = "<group>"; };
 		B930E2861A0569D50047F9A0 /* KPAKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPAKit-Prefix.pch"; sourceTree = "<group>"; };
-		B930E28A1A0569D50047F9A0 /* KPAPinnableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAPinnableView.h; sourceTree = "<group>"; };
-		B930E28B1A0569D50047F9A0 /* KPAPinnableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAPinnableView.m; sourceTree = "<group>"; };
 		B930E28D1A0569D50047F9A0 /* KPABorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPABorderedButton.h; sourceTree = "<group>"; };
 		B930E28E1A0569D50047F9A0 /* KPABorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPABorderedButton.m; sourceTree = "<group>"; };
 		B930E2901A0569D50047F9A0 /* KPAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAView.h; sourceTree = "<group>"; };
@@ -379,29 +376,11 @@
 		B930E2871A0569D50047F9A0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B930E2881A0569D50047F9A0 /* Beta */,
 				B930E28C1A0569D50047F9A0 /* KPABorderedButton */,
 				B930E28F1A0569D50047F9A0 /* KPAView */,
 				B930E2921A0569D50047F9A0 /* KPAViewController */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		B930E2881A0569D50047F9A0 /* Beta */ = {
-			isa = PBXGroup;
-			children = (
-				B930E2891A0569D50047F9A0 /* KPAPinnableView */,
-			);
-			path = Beta;
-			sourceTree = "<group>";
-		};
-		B930E2891A0569D50047F9A0 /* KPAPinnableView */ = {
-			isa = PBXGroup;
-			children = (
-				B930E28A1A0569D50047F9A0 /* KPAPinnableView.h */,
-				B930E28B1A0569D50047F9A0 /* KPAPinnableView.m */,
-			);
-			path = KPAPinnableView;
 			sourceTree = "<group>";
 		};
 		B930E28C1A0569D50047F9A0 /* KPABorderedButton */ = {
@@ -913,7 +892,6 @@
 				B9D2E8B5195E6BD800CFE082 /* KPASettingsViewController.m in Sources */,
 				B930E2A01A0569D50047F9A0 /* KPAKitGeometryFunctions.c in Sources */,
 				B9D8E80A1981E0ED002959F7 /* KPACustomNoteTextView.m in Sources */,
-				B930E2A21A0569D50047F9A0 /* KPAPinnableView.m in Sources */,
 				B930E2991A0569D50047F9A0 /* NSData+KPAKit.m in Sources */,
 				B9B4DC7C1977A941007D145A /* PhotoViewController.m in Sources */,
 				B9D2E8A1195CC06900CFE082 /* MSCellAccessory.m in Sources */,

@@ -33,14 +33,12 @@
 }
 
 - (instancetype)initWithFrame:(CGRect)frame withNumberOfPages:(NSUInteger)pageNum andViewLoadingBlock:(KPAPagedViewLoadViewblock)block {
+ 
+    NSParameterAssert(block);
     
     self = [super initWithFrame:frame];
     
     if (self) {
-        
-        if (!block) {
-            [NSException raise:@"Block is nil" format:@"Can not pass a nil block"];
-        }
         
         self.viewLoadBlock = block;
         self.pageNum = pageNum;
